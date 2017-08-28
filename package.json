@@ -1,5 +1,5 @@
 {
-  "name": "@types/swagger",
+  "name": "swagger-schema",
   "version": "2.0.0",
   "description": "Schema objects for swagger",
   "main": "dist/index.js",
