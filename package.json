@@ -9,7 +9,7 @@
     "test": "echo \"no test specified\" && exit 0"
   },
   "author": "Gísli Konráð Björnsson",
-  "license": "Unlicense",
+  "license": "Apache",
   "devDependencies": {
     "typescript": "^2.4.2"
   }
