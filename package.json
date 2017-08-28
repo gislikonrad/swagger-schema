@@ -1,0 +1,16 @@
+{
+  "name": "@types/swagger",
+  "version": "2.0.0",
+  "description": "Schema objects for swagger",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"no test specified\" && exit 0"
+  },
+  "author": "Gísli Konráð Björnsson",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "tsm-cli": "^0.6.1",
+    "typescript": "^2.4.2"
+  }
+}

@@ -1,0 +1,1 @@
+export type CollectionFormat = 'csv'|'ssv'|'tsv'|'pipes';

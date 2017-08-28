@@ -1,0 +1,1 @@
+export type In = 'query'|'header'|'path'|'formData'|'body';

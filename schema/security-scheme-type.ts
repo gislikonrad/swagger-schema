@@ -1,0 +1,1 @@
+export type SecuritySchemeType = 'basic'|'apiKey'|'oauth2';

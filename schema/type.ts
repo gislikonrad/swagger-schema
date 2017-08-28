@@ -1,0 +1,1 @@
+export type Type = 'object'|'string'|'integer'|'number'|'boolean'|'array';
