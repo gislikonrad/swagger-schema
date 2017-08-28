@@ -1,4 +1,4 @@
-schema
+src
 node_modules
 tsconfig.json
 index.ts
