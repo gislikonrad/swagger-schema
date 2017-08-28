@@ -1,6 +1,7 @@
 import { ExternalDocumentation } from "./external-documentation";
 import { Reference } from "./reference";
 import { Parameter } from "./parameter";
+import { Response } from "./response";
 
 export class Operation {
   tags: string[];
