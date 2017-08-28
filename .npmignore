@@ -3,3 +3,5 @@ node_modules
 tsconfig.json
 index.ts
 .npmignore
+.gitattributes
+.gitignore
