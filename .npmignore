@@ -5,3 +5,4 @@ index.ts
 .npmignore
 .gitattributes
 .gitignore
+.travis.yml
