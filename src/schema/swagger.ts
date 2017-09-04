@@ -1,4 +1,11 @@
-import { Info, Paths, Schema, SecurityScheme, Response, SecurityRequirement, ExternalDocumentation, Tag } from "src";
+import { Info } from "./info";
+import { Paths } from "./paths";
+import { Schema } from "./schema";
+import { SecurityScheme } from "./security-scheme";
+import { Response } from "./response";
+import { SecurityRequirement } from "./security-requirement";
+import { ExternalDocumentation } from "./external-documentation";
+import { Tag } from "./tag";
 
 /** This is the root document object for the API specification. It combines what previously was the Resource Listing and API Declaration (version 1.2 and earlier) together into one document. */
 export class Swagger {

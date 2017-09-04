@@ -1,17 +1,21 @@
-import { Reference, Parameter, Responses, ExternalDocumentation, SecurityRequirement } from "src";
+import { Reference } from "./reference";
+import { Parameter } from "./parameter";
+import { Responses } from "./responses";
+import { ExternalDocumentation } from "./external-documentation";
+import { SecurityRequirement } from "./security-requirement";
 
 /** Describes a single API operation on a path. */
 export class Operation {
   /** A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. */
   tags?: string[];
-  /** Unique string used to identify the operation. The id MUST be unique among all operations described in the API. Tools and libraries MAY use the operationId to uniquely identify an operation, therefore, it is recommended to follow common programming naming conventions. */
-  operationId?: string;
   /** A short summary of what the operation does. For maximum readability in the swagger-ui, this field SHOULD be less than 120 characters. */
   summary?: string;
   /** A verbose explanation of the operation behavior. GFM syntax can be used for rich text representation. */
   description?: string;
   /** Additional external documentation for this operation. */
   externalDocs?: ExternalDocumentation;
+  /** Unique string used to identify the operation. The id MUST be unique among all operations described in the API. Tools and libraries MAY use the operationId to uniquely identify an operation, therefore, it is recommended to follow common programming naming conventions. */
+  operationId?: string;
   /** A list of MIME types the operation can consume. This overrides the consumes definition at the Swagger Object. An empty value MAY be used to clear the global definition. Value MUST be as described under Mime Types. */
   consumes?: string[];
   /** A list of MIME types the operation can produce. This overrides the produces definition at the Swagger Object. An empty value MAY be used to clear the global definition. Value MUST be as described under Mime Types. */

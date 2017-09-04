@@ -1,4 +1,5 @@
-import { Contact, License } from "src";
+import { License } from "./license";
+import { Contact } from "./contact";
 
 /** The object provides metadata about the API. The metadata can be used by the clients if needed, and can be presented in the Swagger-UI for convenience. */
 export class Info {

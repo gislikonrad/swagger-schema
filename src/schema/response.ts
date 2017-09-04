@@ -1,4 +1,4 @@
-import { Header } from "src";
+import { Header } from "./header";
 
 /** Describes a single response from an API Operation. */
 export class Response {

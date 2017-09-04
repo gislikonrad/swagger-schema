@@ -1,4 +1,7 @@
-import { Type, Format, ExternalDocumentation, Xml } from "src";
+import { Type } from "./type";
+import { Format } from "./format";
+import { ExternalDocumentation } from "./external-documentation";
+import { Xml } from "./xml";
 
 /** The Schema Object allows the definition of input and output data types. These types can be objects, but also primitives and arrays. This object is based on the JSON Schema Specification Draft 4 and uses a predefined subset of it. On top of this subset, there are extensions provided by this specification to allow for more complete documentation. */
 export class Schema {

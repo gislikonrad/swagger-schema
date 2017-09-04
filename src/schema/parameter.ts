@@ -1,4 +1,9 @@
-import { In, Schema, Type, Format, CollectionFormat, Items } from "src";
+import { In } from "./in";
+import { Schema } from "./schema";
+import { Type } from "./type";
+import { Format } from "./format";
+import { CollectionFormat } from "./collection-format";
+import { Items } from "./items";
 
 /** Describes a single operation parameter. */
 export class Parameter /*extends SchemaBase*/ {

@@ -1,4 +1,4 @@
-import { Path } from "src";
+import { Path } from "./path";
 
 /** Holds the relative paths to the individual endpoints. The path is appended to the basePath in order to construct the full URL. The Paths may be empty, due to ACL constraints. */
 export class Paths {
