@@ -22,6 +22,8 @@ import { SecurityScheme } from "./schema/security-scheme";
 import { Swagger } from "./schema/swagger";
 import { Type } from "./schema/type";
 import { Types } from "./schema/types";
+import { Server } from './schema/server';
+import { ServerVariable } from "src/schema/server-variable";
 
 export {
   CollectionFormat, 
@@ -45,6 +47,8 @@ export {
   SecuritySchemeType,
   SecuritySchemeTypes,
   SecurityScheme,
+  Server,
+  ServerVariable,
   Swagger,
   Type,
   Types
