@@ -1,5 +1,5 @@
 import { Info } from "./info";
-import { Path } from "./path";
+import { Paths } from "./paths";
 import { Schema } from "./schema";
 import { SecurityScheme } from "./security-scheme";
 import { Server } from "./server";
@@ -21,7 +21,7 @@ export class Swagger {
   /** A list of MIME types the APIs can produce. This is global to all APIs but can be overridden on specific API calls. Value MUST be as described under Mime Types. */
   produces: string[];
   /** The available paths and operations for the API. */
-  paths: { [id: string] : Path };
+  paths: Paths;
   /** An object to hold data types produced and consumed by operations. */
   definitions: { [id: string]: Schema };
   /** Security scheme definitions that can be used across the specification. */
