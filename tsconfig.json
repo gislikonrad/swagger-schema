@@ -1,7 +1,14 @@
 {
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+
+  ],
   "compileOnSave": false,
-  "compilerOptions": {
-    "outDir": "./dist",
+  "compilerOptions": {    
+    "outDir": ".",
     "module": "commonjs",
     "baseUrl": ".",
     "sourceMap": true,

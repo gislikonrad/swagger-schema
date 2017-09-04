@@ -49,3 +49,7 @@ Temporary Items
 dist
 node_modules
 npm-debug.log
+
+**/*.d.ts
+**/*.js
+**/*.js.map
