@@ -1,9 +1,9 @@
-import { SchemaBase } from "./schema-base";
 import { In } from "./in";
 import { Schema } from "./schema";
 import { Type} from './type';
 import { Format} from './format';
 import { CollectionFormat } from "./collection-format";
+import { Items } from "./items";
 
 /** Describes a single operation parameter. */
 export class Parameter /*extends SchemaBase*/ {
@@ -71,7 +71,7 @@ export class Parameter /*extends SchemaBase*/ {
    * Required if type is "array". 
    * Describes the type of items in the array.
    */
-  items?: Schema;
+  items?: Items;
   /** 	See https://tools.ietf.org/html/draft-fge-json-schema-validation-00#section-5.1.1. */
   multipleOf?: number;
 }

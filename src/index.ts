@@ -20,6 +20,7 @@ import { SecurityScheme } from "./schema/security-scheme";
 import { Swagger } from "./schema/swagger";
 import { Type } from "./schema/type";
 import { Paths } from "src/schema/paths";
+import { Items } from "src/schema/items";
 // import { Server } from './schema/server';
 // import { ServerVariable } from "src/schema/server-variable";
 
@@ -32,6 +33,7 @@ export {
   Header, 
   In,
   Info,
+  Items,
   License,
   Operation,
   Parameter,
