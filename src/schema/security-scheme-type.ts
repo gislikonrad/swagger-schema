@@ -1,1 +1,5 @@
-export type SecuritySchemeType = 'basic'|'apiKey'|'oauth2';
+export enum SecuritySchemeType {
+  basic = 'basic',
+  apiKey = 'apiKey',
+  oauth2 = 'oauth2'
+}

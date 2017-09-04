@@ -1,1 +1,8 @@
-export type Type = 'object'|'string'|'integer'|'number'|'boolean'|'array';
+export enum Type {
+  object = 'object',
+  array = 'array',
+  string = 'string',
+  number = 'number',
+  integer = 'integer',
+  boolean = 'boolean'
+}

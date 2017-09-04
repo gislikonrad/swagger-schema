@@ -1,1 +1,7 @@
-export type CollectionFormat = 'csv'|'ssv'|'tsv'|'pipes';
+export enum CollectionFormat{
+  csv = 'csv',
+  ssv = 'ssv',
+  tsv = 'tsv',
+  pipes = 'pipes',
+  multi = 'multi'
+}

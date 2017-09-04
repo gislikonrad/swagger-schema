@@ -1,1 +1,7 @@
-export type In = 'query'|'header'|'path'|'formData'|'body';
+export enum In {
+  query = 'query',
+  header = 'header',
+  path = 'path',
+  formData = 'formData',
+  body = 'body'
+}
