@@ -1,3 +1,4 @@
+/** Basic types */
 export enum Type {
   object = 'object',
   array = 'array',

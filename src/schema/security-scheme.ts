@@ -1,4 +1,4 @@
-import { SecuritySchemeType } from "./security-scheme-type";
+import { SecuritySchemeType } from "src";
 
 export class SecurityScheme {
   type: SecuritySchemeType;

@@ -1,6 +1,6 @@
 {
   "name": "swagger-schema-ts",
-  "version": "2.0.5",
+  "version": "2.0.6-RC",
   "description": "Swagger schema objects for typescript",
   "main": "index.js",
   "typings": "index.d.js",

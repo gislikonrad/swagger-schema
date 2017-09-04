@@ -1,4 +1,4 @@
-export enum CollectionFormat{
+export enum CollectionFormat {
   csv = 'csv',
   ssv = 'ssv',
   tsv = 'tsv',
