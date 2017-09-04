@@ -5,19 +5,14 @@ import { License } from "./license";
 export class Info {
   /** The title of the application */
   title: string;
-
   /** A short description of the application. CommonMark syntax MAY be used for rich text representation. */
   description?: string;
-
   /** A URL to the Terms of Service for the API. MUST be in the format of a URL. */
   termsOfService?: string;
-
   /** The contact information for the exposed API. */
   contact?: Contact;
-
   /** The license information for the exposed API. */
   licence?: License;
-
   /** The version of the OpenAPI document (which is distinct from the OpenAPI Specification version or the API implementation version). */
   version: string;
 }
